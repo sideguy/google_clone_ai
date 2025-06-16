@@ -1,12 +1,36 @@
-# React + Vite
+# Google AI Studio Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based clone of Google's AI Studio interface with dashboard and chat functionality.
 
-Currently, two official plugins are available:
+## Features
+- Modern UI with dark theme
+- Responsive layout
+- Interactive components
+- Sample API integration
+- Multi-page navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/google-ai-studio-clone.git
+   cd google-ai-studio-clone
+
+2. Install dependencies 
+      `npm install`
+3. Run the development server:
+       `npm run dev`
+4. Open your browser and visit:
+     http://localhost:5173
+
+Dependencies List :
+
+react (^18.2.0)
+react-dom (^18.2.0)
+react-router-dom (^6.22.1) - For page routing
+react-icons (^4.12.0) - For all UI icons
